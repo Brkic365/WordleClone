@@ -1,0 +1,27 @@
+.wordGrid {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  .wordRow {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    .letterBox {
+      position: relative;
+      width: 4rem;
+      height: 4rem;
+      border: 1.5px solid;
+
+      h3 {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 2rem;
+      }
+    }
+  }
+}
