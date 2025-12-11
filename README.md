@@ -39,7 +39,7 @@ Follow these steps to run the project locally:
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/wordle-clone.git
+git clone https://github.com/Brkic365/wordle-clone.git
 cd wordle-clone
 ```
 
