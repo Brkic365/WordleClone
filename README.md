@@ -40,7 +40,7 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/Brkic365/WordleClone.git
-cd wordle-clone
+cd WordleClone
 ```
 
 Install dependencies
