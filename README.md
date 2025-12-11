@@ -1,6 +1,4 @@
-Here is a clean and simple README.md for your Wordle clone project.
-
-Simple Wordle Clone 🟩🟨⬜
+**Simple Wordle Clone 🟩🟨⬜**
 
 A lightweight recreation of the popular word guessing game, built with Next.js and React.
 
