@@ -1,34 +1,72 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Here is a clean and simple README.md for your Wordle clone project.
 
-## Getting Started
+Simple Wordle Clone 🟩🟨⬜
 
-First, run the development server:
+A lightweight recreation of the popular word guessing game, built with Next.js and React.
+
+🎮 How to Play
+
+Guess the 5-letter secret word in 6 tries.
+
+After each guess, the tiles change color to show how close you are:
+
+Green: Letter is in the word and in the correct spot.
+
+Yellow: Letter is in the word but in the wrong spot.
+
+Gray: Letter is not in the word.
+
+✨ Features
+
+Random Word Generation: Picks a new word from a local JSON list on every refresh.
+
+Game Logic: Handles input validation, word comparison, and win/loss states.
+
+Auto-Focus: Keeps the keyboard active for seamless typing.
+
+Responsive Design: Styled with SCSS Modules.
+
+🛠️ Tech Stack
+
+Next.js (Pages Router)
+
+React
+
+Sass/SCSS
+
+🚀 Getting Started
+
+Follow these steps to run the project locally:
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/wordle-clone.git
+cd wordle-clone
+```
+
+Install dependencies
+
+```bash
+npm install
+# or
+yarn install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your browser.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+📂 Project Structure
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+pages/index.js: Main game page and logic container.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+components/WordGrid.jsx: Handles the grid rendering, user input, and coloring logic.
 
-## Learn More
+public/words.json: The list of valid 5-letter words used for the game.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+styles/: CSS and SCSS modules for styling.
